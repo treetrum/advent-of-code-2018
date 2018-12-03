@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const INPUT = path.join(__dirname, 'input.txt');
+const INPUT = path.join(__dirname, '../input.txt');
 
 fs.readFile(INPUT, (err, data) => {
 	// Cancel for err
